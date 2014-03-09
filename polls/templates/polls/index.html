@@ -1,6 +1,7 @@
 {% load staticfiles %}
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<h1 style="margin-left:30px;font-size:40;color:yellow;"><strong> My Polls </strong> </h1>
 {% if latest_poll_list %}
 	<ul>
 	{% for poll in latest_poll_list %}
